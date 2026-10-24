@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="canvaBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="50%" stop-color="#311042"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="canvaCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00c4cc"/>
+      <stop offset="100%" stop-color="#7d2ae8"/>
+    </linearGradient>
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="cardGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#f43f5e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="360" rx="16" fill="url(#canvaBg)"/>
+  
+  <!-- Grid overlay -->
+  <g opacity="0.15">
+    <line x1="0" y1="90" x2="600" y2="90" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="180" x2="600" y2="180" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="270" x2="600" y2="270" stroke="#ffffff" stroke-width="1"/>
+    <line x1="150" y1="0" x2="150" y2="360" stroke="#ffffff" stroke-width="1"/>
+    <line x1="300" y1="0" x2="300" y2="360" stroke="#ffffff" stroke-width="1"/>
+    <line x1="450" y1="0" x2="450" y2="360" stroke="#ffffff" stroke-width="1"/>
+  </g>
+
+  <!-- Canva Floating Card 1: Poster Showcase -->
+  <g transform="translate(60, 50) rotate(-6)">
+    <rect width="180" height="240" rx="12" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+    <rect x="12" y="12" width="156" height="110" rx="8" fill="url(#cardGrad1)"/>
+    <circle cx="90" cy="65" r="24" fill="#ffffff" opacity="0.3"/>
+    <polygon points="90,52 105,75 75,75" fill="#ffffff"/>
+    <rect x="15" y="135" width="100" height="12" rx="4" fill="#f8fafc"/>
+    <rect x="15" y="155" width="140" height="8" rx="3" fill="#64748b"/>
+    <rect x="15" y="170" width="120" height="8" rx="3" fill="#64748b"/>
+    <rect x="15" y="200" width="70" height="20" rx="6" fill="#00c4cc"/>
+    <text x="24" y="214" font-family="sans-serif" font-size="10" font-weight="bold" fill="#042f2e">POSTER</text>
+  </g>
+
+  <!-- Canva Floating Card 2: Presentation Deck (Center) -->
+  <g transform="translate(210, 40)">
+    <rect width="210" height="255" rx="14" fill="#0f172a" stroke="#7d2ae8" stroke-width="2.5"/>
+    <rect x="14" y="14" width="182" height="115" rx="10" fill="url(#canvaCyan)"/>
+    <text x="30" y="55" font-family="sans-serif" font-size="18" font-weight="900" fill="#ffffff">CANVA PRO</text>
+    <text x="30" y="78" font-family="sans-serif" font-size="11" font-weight="500" fill="#f1f5f9">Creative Layout &amp; Deck</text>
+    
+    <rect x="16" y="145" width="115" height="14" rx="4" fill="#f1f5f9"/>
+    <rect x="16" y="168" width="170" height="8" rx="3" fill="#64748b"/>
+    <rect x="16" y="184" width="150" height="8" rx="3" fill="#64748b"/>
+    <rect x="16" y="200" width="165" height="8" rx="3" fill="#64748b"/>
+    <rect x="16" y="222" width="95" height="20" rx="6" fill="#7d2ae8"/>
+    <text x="26" y="236" font-family="sans-serif" font-size="10" font-weight="bold" fill="#ffffff">PPT / SLIDE</text>
+  </g>
+
+  <!-- Canva Floating Card 3: Social Media / Mood Graphic -->
+  <g transform="translate(390, 65) rotate(7)">
+    <rect width="165" height="225" rx="12" fill="#1e293b" stroke="#ec4899" stroke-width="1.8"/>
+    <rect x="12" y="12" width="141" height="100" rx="8" fill="url(#cardGrad2)"/>
+    <circle cx="82" cy="62" r="20" fill="#ffffff" opacity="0.4"/>
+    <rect x="14" y="125" width="85" height="10" rx="3" fill="#f8fafc"/>
+    <rect x="14" y="145" width="130" height="7" rx="3" fill="#64748b"/>
+    <rect x="14" y="160" width="110" height="7" rx="3" fill="#64748b"/>
+    <rect x="14" y="185" width="80" height="18" rx="5" fill="#f43f5e"/>
+    <text x="22" y="198" font-family="sans-serif" font-size="9" font-weight="bold" fill="#ffffff">INFOGRAFIS</text>
+  </g>
+
+  <!-- Bottom banner badge -->
+  <rect x="150" y="315" width="300" height="30" rx="15" fill="#000000" opacity="0.6" stroke="#475569" stroke-width="1"/>
+  <text x="180" y="335" font-family="sans-serif" font-size="12" fill="#cbd5e1">🎨 Visual Aesthetic &amp; Content Design</text>
+</svg>
