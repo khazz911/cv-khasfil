@@ -34,7 +34,6 @@ pemrograman web/
 │   └── foto-profil.jpg          # Salinan cadangan foto profil
 │
 ├── README.md                    # Dokumentasi umum proyek
-└── PANDUAN_TUGAS.md             # Panduan pengumpulan tugas Edlink & upload ke GitHub Pages
 ```
 
 ---
@@ -46,7 +45,7 @@ pemrograman web/
 
 ---
 
-## 🌐 Bonus Nilai Tambah: Deploy ke GitHub Pages (Gratis)
+## 🌐 Bonus Nilai Tambah: Deploy ke GitHub Pages
 
 Sesuai deskripsi tugas:
 > *"Bonus (nilai tambah, tidak wajib): publish website ke GitHub Pages — sertakan link repository/demo jika ada."*
